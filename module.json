@@ -1,0 +1,40 @@
+{
+  "title": "GameMaster 5 Importer",
+  "version": "0.0.1",
+  "esmodules": [
+    "scripts/gameMaster5Importer.js"
+  ],
+  "styles": [
+    {
+      "src": "styles/style.css"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "url": "https://github.com/ScarejumpStudios/GameMaster5eToFoundryImporter",
+  "manifest": "https://raw.githubusercontent.com/ScarejumpStudios/GameMaster5eToFoundryImporter/main/module.json",
+  "download": "https://github.com/ScarejumpStudios/GameMaster5eToFoundryImporter/archive/main.zip",
+  "id": "game-master-5e-to-foundry-importer",
+  "authors": [
+    {
+      "name": "Scarejumper",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.2.5",
+          "verified": "5.2.5"
+        }
+      }
+    ]
+  },
+  "description": "",
+  "flags": {}
+}
